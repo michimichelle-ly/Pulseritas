@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulseritas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fce4ec;
+            color: #333;
+        }
+        header {
+            background-color: #ff69b4; /* Rosa vibrante */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .banner {
+            text-align: center;
+            color: white;
+            padding: 40px 0;
+            margin: 20px 0;
+        }
+        .banner.start {
+            background-color: #ff66b2; /* Rosa más suave */
+        }
+        .banner.prices {
+            background-color: #ff80bf; /* Rosa pastel */
+        }
+        .banner.contact {
+            background-color: #d81b60; /* Rosa más fuerte */
+        }
+        .banner h2 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .banner p {
+            font-size: 1.2em;
+        }
+        .btn-section {
+            background-color: #ff4d94;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .btn-section:hover {
+            background-color: #ff3385;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+        }
+        .product-description {
+            font-size: 1.2em;
+            color: #555;
+        }
+        .product-image {
+            width: 80%;
+            max-width: 600px;
+            margin: 20px 0;
+        }
+        .btn-buy {
+            background-color: #ff66b2;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            font-size: 1.5em;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .btn-buy:hover {
+            background-color: #ff4d94;
+        }
+        footer {
+            background-color: #d81b60;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        footer a {
+            color: #ecf0f1;
+            text-decoration: none;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #ff66b2;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #ff4d94;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            background-color: #ff4d94;
+            color: white;
+            padding: 12px 30px;
+            margin: 10px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #ff3385;
+        }
+        .whatsapp-btn {
+            background-color: #25D366; /* Verde de WhatsApp */
+            color: white;
+            padding: 12px 30px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .whatsapp-btn:hover {
+            background-color: #128C7E;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pulseras!</h1>
+    </header>
+
+    <!-- Barra de navegación para saltar a las secciones -->
+ <nav>
+    <a href="menu.html">Inicio</a>
+    <a href="precios.html">Precios</a>
+    <a href="contacto.html">Contacto</a>
+</nav>
+
+    <!-- Banner de Inicio -->
+    <div class="banner start" id="inicio">
+        <h2>Bienvenidos a las pulseritas mas lindas</h2>
+    </div>
+
+    <div class="container">
+        <p class="product-description">
+            <h1>Las pulseras de hilo y cuentas pueden ser pulseras de la amistad o pulseras kandi.</h1>
+<div style="width: 90%; max-width: 800px; margin: 40px auto; font-family: Arial, sans-serif;">
+    <h2 style="text-align: center; color: #d81b60; margin-bottom: 20px;">Comparación de Pulseras</h2>
+    <table style="width: 100%; border-collapse: collapse; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <thead>
+            <tr style="background-color: #ff69b4; color: white;">
+                <th style="padding: 15px; border: 1px solid #fff;">Características</th>
+                <th style="padding: 15px; border: 1px solid #fff;">Pulseras de la Amistad</th>
+                <th style="padding: 15px; border: 1px solid #fff;">Pulseras Kandi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-color: #fce4ec;">
+                <td style="padding: 15px; border: 1px solid #ffb6c1;">Material</td>
+                <td style="padding: 15px; border: 1px solid #ffb6c1;">Hilo de bordar</td>
+                <td style="padding: 15px; border: 1px solid #ffb6c1;">Cuentas de poni (plástico)</td>
+            </tr>
+            <tr style="background-color: #fff0f5;">
+                <td style="padding: 15px; border: 1px solid #ffb6c1;">Técnica</td>
+                <td style="padding: 15px; border: 1px solid #ffb6c1;">Macramé (nudos)</td>
+                <td style="padding: 15px; border: 1px solid #ffb6c1;">Enhebrado a mano</td>
+            </tr>
+            <tr style="background-color: #fce4ec;">
+                <td style="padding: 15px; border: 1px solid #ffb6c1;">Significado</td>
+                <td style="padding: 15px; border: 1px solid #ffb6c1;">Símbolo de amistad</td>
+                <td style="padding: 15px; border: 1px solid #ffb6c1;">Intercambio en eventos rave/scene</td>
+            </tr>
+            <tr style="background-color: #fff0f5;">
+                <td style="padding: 15px; border: 1px solid #ffb6c1;">Popularidad</td>
+                <td style="padding: 15px; border: 1px solid #ffb6c1;">Ampliamente usado entre amigos</td>
+                <td style="padding: 15px; border: 1px solid #ffb6c1;">Cultura rave y electrónica</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+    <div class="container">
+<h2 style="text-align: center; color: #d81b60; margin-bottom: 20px;"> LINDAS PULSERAS!</h2>
+        <p class="product-description">
+<h2>Decoración</h2>
+Las pulseras con cuentas se pueden usar como complemento para hombres y mujeres. 
+<h2>Bisutería</h2>
+Se pueden crear collares, anillos, cintas para el cabello y otros accesorios. 
+<h2>Manualidades</h2>
+Las cuentas son ideales para que los niños mejoren su coordinación de manos y ojos. 
+        </p>
+        <center>
+<img src="2.jpg" alt="Fresas con Crema 2">
+ </center>
+ <center>
+<nav>
+    <a href="¡Compra ahora!.html">Contacto</a>
+</nav> 
+ </center>
+    </div>
+<header>
+        <h2>Precios</h2>
+    </header>
+<!-- Banner de Precios -->
+    <div class="banner prices" id="precios">
+        <h2>Precios Especiales</h2>
+        <p>Disfruta de nuestras pulseritas a precios inigualables.</p>
+        <p><strong>solo color :</strong> $10</p>
+        <p><strong>letras:</strong> $10</p>
+        <p><strong>accesorios:</strong> $15</p>
+        <nav>
+    <a href="¡Compra ahora!.html">Contacto</a>
+</nav> 
+
+    <footer>
+        <p>&copy; 2025 Candy´s | <a href="a190282@ugm.com">Contáctanos</a></p>
+    </footer>
+</body>
+</html>
