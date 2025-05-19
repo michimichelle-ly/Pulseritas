@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pulseritas</title>
+    <title>Contacto - Pulseritas</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,6 +11,18 @@
             padding: 0;
             background-color: #fce4ec;
             color: #333;
+        }
+        .images-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px;
+        }
+        .images-container img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
         header {
             background-color: #ff69b4;
@@ -46,7 +58,8 @@
             margin: 20px auto;
             text-align: center;
         }
-        .contact-form input, .contact-form textarea {
+        .contact-form input,
+        .contact-form textarea {
             width: 100%;
             padding: 10px;
             margin: 10px 0;
@@ -90,11 +103,11 @@
         <h1>Contacto</h1>
     </header>
 
-<nav>
-    <a href="menu.html">Inicio</a>
-    <a href="precios.html">Precios</a>
-    <a href="contacto.html">Contacto</a>
-</nav>
+    <nav>
+        <a href="menu.html">Inicio</a>
+        <a href="precios.html">Precios</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
 
     <div class="banner contact">
         <h2>Contáctanos</h2>
@@ -116,8 +129,24 @@
         </div>
     </div>
 
+    <!-- Apartado: Logo -->
+    <div class="banner logo" style="background-color: #ff99cc; text-align: center; padding: 40px 0;">
+        <h2 style="font-size: 2.5em; color: white;">Nuestro logo</h2>
+        <p style="font-size: 1.2em; color: #fff;">¡Este es el logo de nuestras pulseritas!</p>
+        <img src="logo.PNG" alt="Logo de Pulseras" style="width: 400px; margin-top: 15px;">
+    </div>
+
+    <!-- Apartado: Recomendación -->
+    <div class="banner recomendacion" style="background-color: #ffc1e3; text-align: center; padding: 40px 0;">
+        <h2 style="font-size: 2.5em; color: #d81b60;">Recomendación</h2>
+        <p style="font-size: 1.2em; color: #333;">Te dejamos una recomendación  de uno de nuestros compradores:</p>
+        <audio controls style="margin-top: 20px;">
+            <source src="audio.MP3" type="audio/mpeg">
+        </audio>
+    </div>
+
     <footer>
-        <p>&copy; 2025 Candy´s | <a href="a190282@ugm.com">Contáctanos</a></p>
+        <p>&copy; 2025 Candy´s | <a href="mailto:a190282@ugm.com">Contáctanos</a></p>
     </footer>
 </body>
 </html>
